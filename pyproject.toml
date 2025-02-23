@@ -1,6 +1,6 @@
 [project]
 name = "poetry-plugin-exec"
-version = "0.1.0"
+version = "1.0.1"
 description = "Poetry plugin to configure and execute commands like npm run."
 authors = [
     {name = "Marcos Alonso",email = "contact@marcosalonso.dev"}
@@ -24,7 +24,7 @@ mypy = "^1.15.0"
 
 [tool.ruff]
 fix = true
-target-version = "py39"
+target-version = "1.0.1"
 line-length = 88
 
 [tool.ruff.lint]
