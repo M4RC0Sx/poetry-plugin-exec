@@ -31,4 +31,4 @@ poetry exec check-format
 
 
 > [!NOTE]
-> This plugin is based on examples from [the official Poetry repository](https://github.com/python-poetry).
+> This plugin is based on examples from [the official Poetry repositories](https://github.com/python-poetry).
