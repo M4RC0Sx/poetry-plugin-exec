@@ -19,6 +19,12 @@ jobs:
             fetch-depth: 0
         
         #----------------------------------------------
+        #       Set CI_COMMIT_BRANCH env variable
+        #----------------------------------------------
+        - name: Set CI_COMMIT_BRANCH
+          run: echo "CI_COMMIT_BRANCH=${GITHUB_REF#refs/heads/}" >> $GITHUB_ENV
+
+        #----------------------------------------------
         #       Install Node.js and Semantic Release
         #----------------------------------------------
         - name: Setup Node.js
