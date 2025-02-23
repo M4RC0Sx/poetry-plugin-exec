@@ -5,6 +5,9 @@
 
 Poetry plugin to define and execute shell scripts in pyproject.toml file like npm run.
 
+> [!IMPORTANT]  
+> This plugin only works on Poetry versins >=2.1.0 installed on Python versions >=3.9!
+
 
 ## Installation
 
