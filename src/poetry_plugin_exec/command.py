@@ -47,7 +47,7 @@ class ExecCommand(Command):
 
         try:
             process = subprocess.run(command, shell=True, check=True)
+            return process.returncode
         except subprocess.CalledProcessError as e:
             self.line_error(f"Error executing <comment>{script_name}</> script: {e}")
-
-        return process.returncode
+            return 1
