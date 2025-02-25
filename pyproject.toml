@@ -1,6 +1,6 @@
 [project]
 name = "poetry-plugin-exec"
-version = "0.1.0"
+version = "1.0.3"
 description = "Poetry plugin to configure and execute commands like npm run."
 authors = [
     {name = "Marcos Alonso",email = "contact@marcosalonso.dev"}
