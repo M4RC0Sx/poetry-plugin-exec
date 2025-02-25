@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file. See
 [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.4](https://github.com/M4RC0Sx/poetry-plugin-exec/compare/v1.0.3...v1.0.4) (2025-02-25)
+
+### Miscellaneous Chores
+
+* remove ruff.target-version to use project.requires-python ([fd0fa55](https://github.com/M4RC0Sx/poetry-plugin-exec/commit/fd0fa551e8cba68a87690bbc8a4acad227f0b19d))
+
 ## [1.0.3](https://github.com/M4RC0Sx/poetry-plugin-exec/compare/v1.0.2...v1.0.3) (2025-02-25)
 
 ### Bug Fixes
