@@ -24,7 +24,6 @@ mypy = "^1.15.0"
 
 [tool.ruff]
 fix = true
-target-version = "py39"
 line-length = 88
 
 [tool.ruff.lint]
